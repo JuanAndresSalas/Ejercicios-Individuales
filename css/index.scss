@@ -1,0 +1,98 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(46, 46, 46);
+}
+
+#contenidoPrincipal{
+  display: flex;
+  justify-content: center;
+  min-height: 350px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(46, 46, 46);
+    background-color: rgb(255, 255, 255) ;
+}
+
+.problemas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 51%;
+    max-width: 70%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1cm;
+    border: 4px black solid;
+}
+
+label{
+  display: inline-block;
+  width: 120px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  
+}
+
+
+input{
+  border: 1px #2c2c2c solid;
+  border-radius: 1cm;
+  text-align: right;
+ 
+}
+
+
+button {
+  position: relative;
+  top: 0px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  font-size: 25px;
+  background: #f7f7f7;
+  padding: 15px 50px;
+  margin: 0 10px;
+  border: 1px solid #c4c4c4;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 3px 0px #2c2c2c;
+  -moz-box-shadow: 0px 3px 0px #2c2c2c;
+  -ms-box-shadow: 0px 3px 0px #2c2c2c;
+  -o-box-shadow: 0px 3px 0px #2c2c2c;
+  box-shadow: 0px 3px 0px #2c2c2c;
+  color: #222;
+  text-shadow: 1px 1px 1px #fff;
+  -webkit-transition: All 250ms ease;
+  -moz-transition: All 250ms ease;
+  -o-transition: All 250ms ease;
+  -ms-transition: All 250ms ease;
+  transition: All 250ms ease;
+  max-width: 25%;
+  max-height: 50px;
+  border-radius: 2cm;
+}
+/*==========  Active State  ==========*/
+button:active {
+  position: relative;
+  top: 5px;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -ms-box-shadow: none !important;
+  -o-box-shadow: none !important;
+  box-shadow: none !important;
+  -webkit-transition: All 250ms ease;
+  -moz-transition: All 250ms ease;
+  -o-transition: All 250ms ease;
+  -ms-transition: All 250ms ease;
+  transition: All 250ms ease;
+  
+}
