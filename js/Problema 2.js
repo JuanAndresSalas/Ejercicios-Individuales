@@ -52,10 +52,17 @@ $("#btnFormulario").on('click', function(){
             break;
     }
 
-    if(criterios.indexOf(false) > -1 ){
-        alert("No cumple con todos los requisitos" )
-    }else {
-        alert("Cumple con los requisitos")
+    
+  console.log(criterios.length)
+    if( criterios.length <= 4) {
+        alert("Debe llenar los campos del formulario")
+    } else {
+        if(criterios.indexOf(false) > -1 ){
+            alert("No cumple con todos los requisitos" )
+        }else {
+            alert("Cumple con los requisitos")
+        }
     }
+    
 })
 
