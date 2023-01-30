@@ -53,7 +53,7 @@ $("#btnFormulario").on('click', function(){
     }
 
     
-  console.log(criterios.length)
+  
     if( criterios.length <= 4) {
         alert("Debe llenar los campos del formulario")
     } else {
